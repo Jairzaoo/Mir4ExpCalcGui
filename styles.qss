@@ -1,0 +1,9 @@
+QPushButton {
+    background-color: rgb(255, 255, 255);
+    font: 1em sans-serif;
+    font-size: medium;
+}
+QComboBox{
+    background-color: rgb(255, 255, 255);
+}
+
