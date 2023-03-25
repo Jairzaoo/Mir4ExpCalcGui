@@ -218,7 +218,7 @@ class StopwatchWidget(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    with open(r'C:\Users\gusta\OneDrive\Área de Trabalho\timer\styles.qss', 'r') as f:
+    with open(r'styles.qss', 'r') as f:
             style = f.read()
     app.setStyleSheet(style)
     stopwatch = StopwatchWidget()
